@@ -1,0 +1,46 @@
+<!-- Generated with EZOut 2.0.6: Install-Module EZOut or https://github.com/StartAutomating/EZOut -->
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>ReturnOnInvestment</Name>
+      <ViewSelectedBy>
+        <TypeName>ReturnOnInvestment</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <AutoSize />
+        <TableHeaders>
+          <TableColumnHeader>
+          </TableColumnHeader>
+          <TableColumnHeader>
+          </TableColumnHeader>
+          <TableColumnHeader>
+          </TableColumnHeader>
+          <TableColumnHeader>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Cost</PropertyName>
+                <FormatString>{0:c}</FormatString>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Income</PropertyName>
+                <FormatString>{0:c}</FormatString>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Value</PropertyName>
+                <FormatString>{0:c}</FormatString>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Return</PropertyName>
+                <FormatString>{0:p}</FormatString>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
