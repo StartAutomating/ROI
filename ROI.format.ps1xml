@@ -35,7 +35,7 @@
               </TableColumnItem>
               <TableColumnItem>
                 <PropertyName>Return</PropertyName>
-                <FormatString>{0:p2}</FormatString>
+                <FormatString>{0:p}</FormatString>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
